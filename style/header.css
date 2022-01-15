@@ -90,7 +90,6 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .header__nav-title {
@@ -338,6 +337,10 @@ li:last-of-type {
     .header__content-title {
         font-size: 66px;
         line-height: 82px;
+    }
+
+    .header__nav.sticky {
+        padding: 5px 20px;
     }
 }
 
